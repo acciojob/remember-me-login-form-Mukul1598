@@ -41,7 +41,13 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-input[type="checkbox"] {
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
     margin-right: 10px;
 }
 
